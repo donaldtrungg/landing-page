@@ -29,7 +29,7 @@ ul{list-style:none}
 .hero{padding:0;background:var(--cream);height:100vh;max-height:100vh;overflow:hidden}
 .hg{display:grid;grid-template-columns:360px 1fr 50%;height:100vh}
 @media(max-width:1100px){.hg{grid-template-columns:260px 1fr 50%}}
-@media(max-width:860px){.hg{grid-template-columns:1fr;height:auto;overflow:auto}}
+@media(max-width:860px){.hg{grid-template-columns:1fr;height:auto;overflow:auto}.hero{height:auto;max-height:none;overflow:visible}.hero-illus{height:auto;max-height:none;overflow:visible}.teacher-img{margin-top:0;height:auto;width:100%;max-height:none;object-fit:unset;object-position:unset}}
 /* COL 1: teacher image panel */
 .hero-illus{position:relative;display:flex;align-items:flex-start;justify-content:center;background:transparent;overflow:hidden;height:100%}
 .hero-illus::before{content:'';position:absolute;top:30px;left:10px;width:200px;height:200px;border-radius:50%;background:transparent;pointer-events:none}
